@@ -1,6 +1,7 @@
 # setup the docker repository
 
-off-line 서버에 docker repository 설정
+<b> off-line 서버에 docker repository 설정 </b>
+
 
 1. [Clone or download] 버튼 클릭하여 Centos 버전에 맞는 파일 다운로드
 
@@ -21,7 +22,8 @@ off-line 서버에 docker repository 설정
 [/]# yum install -y docker-ce
 
 ------------------------------------------------------------------------------------------
-How to setup the docker repository on off-line server
+<b> How to setup the docker repository on off-line server </b>
+
 
 1. Click the [Clone or download] button to download the file suitable for the Centos version.
 
