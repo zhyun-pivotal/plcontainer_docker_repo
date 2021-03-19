@@ -8,11 +8,11 @@ off-line 서버에 docker repository 설정
 
 2-1. 분할압축 수행 명령은 아래와 같음
 
-[/]# tar cvzf - centos74_docker-ce-stable.tar | split -b 24m - centos74_docker-ce-stable.tar.gz
+[/]# tar cvzf  -  centos74_docker-ce-stable.tar | split -b 24m  -  centos74_docker-ce-stable.tar.gz
 
 2-2. 분할압축(tar.gz*) 해제 명령은 아래와 같음
 
-[/]# cat centos74_docker-ce-stable.tar.gz* | tar -xzvpf -
+[/]# cat centos74_docker-ce-stable.tar.gz* | tar -xzvpf  -
 
 3. yum 명령을 이용하여 docker install 
 
@@ -29,11 +29,11 @@ How to setup the docker repository on off-line server
 
 2-1. The command to perform divided compression is as follows.
 
-[/]# tar cvzf-centos74_docker-ce-stable.tar | split -b 24m-centos74_docker-ce-stable.tar.gz
+[/]# tar cvzf  -  centos74_docker-ce-stable.tar | split -b 24m  -  centos74_docker-ce-stable.tar.gz
 
 2-2. The command to release split compression (tar.gz*) is as follows
 
-[/]# cat centos74_docker-ce-stable.tar.gz* | tar -xzvpf-
+[/]# cat centos74_docker-ce-stable.tar.gz* | tar -xzvpf  -
 
 3. Use the yum command to install docker
 
